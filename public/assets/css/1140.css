@@ -1,0 +1,95 @@
+/*
+/*
+/*	1140 Grid CSS Site Styles
+/*
+/*
+/*	Created By Richard McCartney
+/*	Date 12/04/2013
+/*
+/*	http://richardmccartney.co.uk
+/*  Twitter - @ Rich_McCartney
+/*
+/* ------------------------------------------------------------ */
+
+* {
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+html {
+	height: 100%;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	height: 100%;
+	color: #333;
+	font-size: 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 18px;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: orange;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #333;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+/* Images set to 100% width */
+
+img {
+	float: left;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.intro {
+	padding-top: 0px;
+}
+
+.intro h1 {
+	background: url(../images/logo.png) no-repeat left center;
+	padding: 40px 0 40px 75px;
+}
+
+/* Mobile Styles for 768px breakpoint */
+@media screen and (max-width: 768px) {
+
+	/* Add your own styles here */
+
+}
